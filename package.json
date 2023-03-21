@@ -1,0 +1,41 @@
+{
+  "name": "vue3-sys-manager",
+  "author": "kangjinrui<1092014304@qq.com>",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vite build --mode production && rm -rf /usr/local/etc/nginx/data/gis-online && cp -R  dist/ /usr/local/etc/nginx/data/gis-online",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.1.3",
+    "axios": "^0.21.1",
+    "chart.js": "^4.2.1",
+    "element-plus": "^2.1.4",
+    "unplugin-icons": "^0.14.0",
+    "vue-chartjs": "^5.2.0",
+    "vue-cropperjs": "^5.0.0",
+    "vue-i18n": "^9.0.0",
+    "vue-router": "^4.0.10",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.13",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.1.2",
+    "node-sass": "^7.0.1",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "sass": "^1.55.0",
+    "unplugin-icons": "^0.15.3",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^2.8.6",
+    "vue": "^3.2.31"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
