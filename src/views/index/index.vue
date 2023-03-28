@@ -4,15 +4,15 @@
  * @Author: kangjinrui
  * @Date: 2023-03-03 21:58:35
  * @LastEditors: kangjinrui
- * @LastEditTime: 2023-03-17 11:33:37
+ * @LastEditTime: 2023-03-28 09:42:38
 -->
 <template>
     <div class="dashboard_contanier">
-        <el-row style="height:500px;">
+        <!-- <el-row style="height:500px;">
             <el-col :span="8">
                 <CustomCharts/>
             </el-col>
-        </el-row>
+        </el-row> -->
     </div>
 </template>
 

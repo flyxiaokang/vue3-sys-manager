@@ -100,7 +100,7 @@ export default {
             store.commit("app/handleCollapse", !collapse.value);
         };
 
-        const logoSrc = new URL("../../assets/img/logo.png", import.meta.url)
+        const logoSrc = new URL("../../assets/img/V3.png", import.meta.url)
             .href;
 
         onMounted(() => {
